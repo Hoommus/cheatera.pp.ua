@@ -1,0 +1,41 @@
+body > .container {
+  padding: 60px 15px 0;
+  font-size:16px;
+}
+table {
+  font-size:13px;
+}
+.table td, .table th {
+  padding:.250rem!important;
+      white-space: nowrap;
+}
+input {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 98%!important;
+  }
+}
+
+.xlogin {
+  margin: 15px;
+}
+
+.card {
+  margin-top: 15px;
+}
+
+canvas{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after {
+    display: none!important;
+}
+.arrow {
+  cursor:pointer;
+}
